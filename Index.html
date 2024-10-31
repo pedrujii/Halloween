@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <header>HAPPY HALLOWEEN :D</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+</head>
+<body>
+    <img id="fantasminha" src="fantasminha.png">
+    <img id="batma" src="morcegos.png">
+    <div class="TopPage">
+        <h1 id="ready">Você está preparado para o Halloween?</h1>
+        <div id="btnsTopPage">
+            <button class="btnReady" id="btnSim" onclick="jumpscare()">Sim</button>
+            <button class="btnReady" id="btnNao" onmouseover="desvia(this)" onclick="botaoNao()">Não</button>
+        </div>
+    </div>
+    <h1 id="Titulo1">SOBRE O HALLOWEEN</h1>
+
+    <img id="maoBrava" src="maozinhaBrava.jpg">
+
+    <div class="Monika">
+        <img src="monika.png" id="monikaAprox">
+        <img src="monika.png" id="monikaNormal">
+        <img src="monikaJumpscare.png" id="Mjumpscare">
+        <audio src="songFnaf4.mp3" id="scream"></audio>
+    </div>
+
+    <div class="Textos1">
+        <img id="maozinha" src="maozinha2.png"onclick="maozinha()">
+        <img id="carimbo"  src="maozinhaCarimbo.png">
+            <p id="Esque">"Hallow" é uma palavra do inglês antigo para "pessoa santa" e o dia de todas as "pessoas santas" é apenas um outro nome
+                para Dia de Todos os Santos, o dia em que os católicos homenageiam todos os santos. Com o tempo, as pessoas passaram a 
+                se referir à Noite de Todos os Santos, "All Hallows' Even", como "Hallowe'en", e mais tarde simplesmente "Halloween". 
+                O Halloween marca o fim oficial do verão e o início do ano-novo. Celebra também o final da terceira e última colheita do ano,
+                o início do armazenamento de provisões para o inverno, o início do período de retorno dos rebanhos do pasto e a renovação de suas leis.</p>
+                
+            <p id="dire">A origem da festa do Halloween possui uma grande trajetória, visto ser praticada há mais de 3 mil anos. Ela surgiu com os celtas,
+                povo que era politeístas e acreditava em diversos deuses relacionados com os animais e as forças da natureza.
+                Os celtas celebravam o festival Samhain, o qual tinha a duração de 3 dias, com início no dia 31 de outubro.
+                Nela, além de se comemorar o fim do verão, comemorava-se a passagem do ano celta, que tinha início no dia 1 de novembro. 
+            </p>
+    </div>
+
+    <h1 id="TituloCosplays">O QUE ACHA DE COSPLAYS?</h1>
+    <h2 id="txtCosplays">Existem vários cosplayers que aproveitam a época de outubro, Halloween e se fantasiam de personagens de jogos e filmes de terror,
+        existem muitas pessoas realmente muito talentosas que fazem ótimos cosplays, veja só alguns deles!
+    </h2>
+
+    <div class="imgCosplays">
+        <img class="cosplaysImg" src="wandinhaCosplay.png" id="cosplayWandinha">
+        <img class="cosplaysImg" src="cosplay2.jpg" id="cosplay2">
+        <img class="cosplaysImg" src="cosplay3.jpg" id="cosplay3">
+        <img class="cosplaysImg" src="cosplay4.jpg" id="cosplay4">
+    </div>
+
+    <h1 id="decTitulo">DECORAÇÕES</h1>
+    <div class="decoracaoDiv">
+        <p id="txtDecoracao">Como dito antes, nos EUA algumas pessoas em época de Halloween decoram a casa com coisas do tema, isso é comum por lá,
+            tanto que existem eventos e lugares voltados para isso, isso já pe cultura por lá já tem um bom tempo. E isso você consegue até mes o ver em
+            filmes e séries que se passam por lá pelo Halloween, aqui uns exemplos.
+        </p>
+        <div id="imgsDecoracao">
+            <img class="ftsHalloweenHouse" id="house1" src="FtHalloween1.jpg">
+            <img class="ftsHalloweenHouse" id="house2" src="FtHalloween2.jpg">
+            <img class="ftsHalloweenHouse" id="house3" src="FtHalloween3.jpg">
+            <img class="ftsHalloweenHouse" id="house4" src="FtHalloween4.jpg">
+        </div>
+    </div>
+
+    <div class="fim">
+        <div id="avisoDoPresente">
+            <button id="fecharAvisoPresente" onclick="fecharAba()">X</button>
+            <h2 id="txtbombom">Aqui um bombom, esse é o presente :)</h2>
+            <img id="bombom" src="bombom.png" onclick="pegarBombom()">
+        </div>
+        <h1 id="lastTitle">Ficou muito escuro aqui em baixo...</h1>
+        <h2 id="titlePres">Acenda a luz</h2>
+        <div id="luz"></div>
+        <div id="luz2"></div>
+        <img class="lampada" src="lampada.png" onclick="acenderLuz()">
+        <h2 id="subtitFin">POR FIM, UM PRESENTINHO :)</h2>
+        <img id="presente" src="presente-de-halloween.png" onclick="abrirPresente()">
+    </div>
+    <footer>@Pedrujii</footer>
+
+    <script src="Javascript.js"></script>
+</body>
+</html>
